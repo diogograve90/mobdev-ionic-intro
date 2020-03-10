@@ -10,7 +10,6 @@ import { Observable } from 'rxjs';
 })
 export class FilmsPage implements OnInit {
 
-    
   films: Observable<any>;
 
   constructor(private router: Router, private http: HttpClient) { }
